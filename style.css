@@ -137,3 +137,20 @@ body {
     box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(189, 44%, 48%);
     border-radius: 100px;
 }
+
+.rulesBtn {
+    width: 130px;
+    height: 40px;
+    border: 2px solid hsl(216, 14%, 46%);
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
