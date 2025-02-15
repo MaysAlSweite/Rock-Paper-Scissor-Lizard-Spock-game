@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="body">
+
+    <div class="header">
+        <div class="logo"><img src="Assets/logo-bonus.svg" alt="logo"></div>
+        <div class="score">
+            <h5>SCORE</h5>
+            <h1>0</h1>
+        </div>
+    </div>
+
+
+    <div class="buttons" id="buttons">
+        <span class="bg_pantagon"><img src="Assets/bg-pentagon.svg" alt=""></span>
+        <div class="paper" id="paper"><button class="btn" onclick="select('paper')"><img src="Assets/icon-paper.svg"
+                    alt="Paper" class="image"></button></div>
+        <div class="scissor" id="scissor"><button class="btn" onclick="select('scissor')"><img
+                    src="Assets/icon-scissor.svg" alt="scissor" class="image"></button></div>
+        <div class="rock" id="rock"><button class="btn" onclick="select('rock')"><img src="Assets/icon-rock.svg"
+                    alt="rock" class="image"></button></div>
+        <div class="lizard" id="lizard"><button class="btn" onclick="select('lizard')"><img src="Assets/icon-lizard.svg"
+                    alt="lizard" class="image"></button></div>
+        <div class="spock" id="spock"><button class="btn" onclick="select('spock')"><img src="Assets/icon-spock.svg"
+                    alt="spock" class="image"></button></div>
+    </div>
+
+
+    <div><button class="rulesBtn" id="rulesBtn">RULES</button></div>
+
+
+</body>
+
+</html>

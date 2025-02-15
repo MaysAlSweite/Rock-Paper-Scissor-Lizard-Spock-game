@@ -1,0 +1,74 @@
+body {
+    background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: hsl(217, 16%, 45%);
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin: 12px;
+}
+
+.score {
+    background-color: white;
+    width: 100px;
+    height: 90px;
+    border-radius: 5px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.score h5 {
+    color: hsl(229, 64%, 46%);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    float: none;
+    position: absolute;
+    top: 8px;
+    margin: 0px;
+
+}
+
+.score h1 {
+    color: hsla(228, 25%, 31%, 0.863);
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    font-style: bold;
+
+}
+
+.buttons {
+    margin-top: 150px;
+}
+
+.buttons button {
+    height: 100%;
+    width: 100%;
+}
+
+.bg_pantagon img {
+    width: 350px;
+    height: auto;
+}
+
