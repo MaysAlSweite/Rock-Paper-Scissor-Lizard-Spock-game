@@ -1,7 +1,15 @@
 const body = document.getElementById("body");
 var score = 0;
-
+const rules = `<div><button class="rulesBtn"  id="rulesBtn" >RULES</button></div>`;
 const choices = ["scissor", "paper", "rock", "lizard", "spock"];
+
+const rulesDetails = ` <div id="rulesScreen" class="rulesScreen ">
+        <h4>RULES</h4>
+        <button class="closeBtn" id="closeBtn" > <img src="Assets/icon-close.svg"  class="closeImg"></button>
+        <div class="rulesImg">
+            <img src="Assets/image-rules-bonus.svg" alt="Rules">
+        </div>
+    </div>`;
 
 document.getElementById("rulesBtn").addEventListener("click", () => {
     document.getElementById("rulesScreen").classList.add("display");
@@ -113,3 +121,41 @@ const resultScreen = (userChoice, pcChoice, result) => {
     );
 
 }
+
+const playAgain = () => {
+    body.innerHTML = " ";
+    const header = `   <div class="header">
+        <div class="logo"><img src="Assets/logo-bonus.svg" alt="logo"></div>
+        <div class="score">
+            <h5>SCORE</h5>
+            <h1>${score}</h1>
+        </div>
+    </div>`;
+    const icons = `<div class="buttons" id="buttons">
+        <span class="bg_pantagon"><img src="Assets/bg-pentagon.svg" alt=""></span>
+        <div class="paper" id="paper"><button class="btn" onclick="select('paper')"><img src="Assets/icon-paper.svg"
+                    alt="Paper" class="image"></button></div>
+        <div class="scissor" id="scissor"><button class="btn" onclick="select('scissor')"><img
+                    src="Assets/icon-scissor.svg" alt="scissor" class="image"></button></div>
+        <div class="rock" id="rock"><button class="btn" onclick="select('rock')"><img src="Assets/icon-rock.svg"
+                    alt="rock" class="image"></button></div>
+        <div class="lizard" id="lizard"><button class="btn" onclick="select('lizard')"><img src="Assets/icon-lizard.svg"
+                    alt="lizard" class="image"></button></div>
+        <div class="spock" id="spock"><button class="btn" onclick="select('spock')"><img src="Assets/icon-spock.svg"
+                    alt="spock" class="image"></button></div>
+    </div>`;
+    body.insertAdjacentHTML("afterbegin", header);
+    body.insertAdjacentHTML("beforeend", icons);
+    body.insertAdjacentHTML("beforeend", rules);
+    body.insertAdjacentHTML("beforeend", rulesDetails);
+
+    document.getElementById("rulesBtn").addEventListener("click", () => {
+        document.getElementById("rulesScreen").classList.add("display");
+    });
+
+    document.getElementById("closeBtn").addEventListener("click", () => {
+        document.getElementById("rulesScreen").classList.remove("display");
+    }
+    );
+}
+
