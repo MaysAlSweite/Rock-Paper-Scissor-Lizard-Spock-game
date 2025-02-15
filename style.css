@@ -72,3 +72,68 @@ body {
     height: auto;
 }
 
+.paper,
+.scissor,
+.rock,
+.lizard,
+.spock {
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    position: fixed;
+
+}
+
+.btn {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.image {
+    margin: 20%;
+}
+
+.paper {
+    top: 330px;
+    left: 53em;
+    border: 19px solid hsl(230, 89%, 65%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(230, 98%, 61%);
+    border-radius: 100px;
+}
+
+
+.scissor {
+    top: 200px;
+    right: 44em;
+    border: 19px solid hsl(39, 89%, 49%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsla(40, 88%, 35%, 0.902);
+    border-radius: 100px;
+}
+
+.rock {
+    bottom: 70px;
+    right: 35em;
+    border: 19px solid hsl(349, 71%, 52%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(349, 61%, 39%);
+    border-radius: 100px;
+}
+
+.lizard {
+    bottom: 70px;
+    left: 38em;
+    border: 19px solid hsl(261, 73%, 60%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(261, 42%, 41%);
+    border-radius: 100px;
+}
+
+.spock {
+    bottom: 250px;
+    right: 53em;
+    border: 19px solid hsl(189, 59%, 53%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(189, 44%, 48%);
+    border-radius: 100px;
+}
