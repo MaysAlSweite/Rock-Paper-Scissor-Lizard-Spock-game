@@ -340,14 +340,14 @@ body {
     font-style: normal;
     letter-spacing: 2px;
     top: 38%;
-    left: 43%;
+    left: 44%;
 }
 .play {
     position: absolute;
     bottom: 42%;
     left: 45%;
     height: 35px;
-    width: 160px;
+    width: 165px;
     border-radius: 7px;
     letter-spacing: 2px;
     color: hsl(237, 49%, 15%);
@@ -420,7 +420,7 @@ body {
 
 
     .rock {
-        right: 13%;
+        right: 5%;
         bottom: 15%;
     }
 
@@ -448,7 +448,7 @@ body {
             3px 4px 4px 20px rgba(204, 200, 200, 0.099),
             3px 4px 2px 45px rgba(254, 254, 254, 0.088),
             3px 4px 2px 65px rgba(255, 255, 255, 0.06),
-            inset 0px 4px 1px 2px hsl(217, 62%, 85%),
+            inset 0px 1px 1px 1px hsl(217, 62%, 85%),
             0px 8px 1px hsl(349, 61%, 39%);
     }
 
@@ -504,13 +504,13 @@ body {
     }
 
     .mid h1 {
-        margin-top: 60%;
+        margin-top: 63%;
         left: 15%;
     }
 
     .play {
         position: absolute;
-        bottom: 20%;
+        bottom: 18%;
         left: 22%;
 
     }
