@@ -268,3 +268,57 @@ body {
     width: 130px;
     height: 130px;
 }
+
+.rockWinner {
+    box-shadow:
+        3px 4px 5px 40px rgba(204, 200, 200, 0.137),
+        3px 4px 10px 100px rgba(254, 254, 254, 0.11),
+        3px 4px 10px 160px rgba(255, 255, 255, 0.06),
+        inset 0px 4px 1px 2px hsl(217, 62%, 85%),
+        0px 6px 1px hsl(349, 61%, 39%);
+    border-radius: 50%;
+    transition: box-shadow 0.59 ease-in-out;
+}
+
+.paperWinner {
+    box-shadow:
+        3px 4px 5px 40px rgba(204, 200, 200, 0.137),
+        3px 4px 10px 100px rgba(254, 254, 254, 0.11),
+        3px 4px 10px 160px rgba(255, 255, 255, 0.06),
+        inset 0px 4px 1px 2px hsl(217, 62%, 85%),
+        0px 6px 1px hsl(230, 98%, 61%);
+    border-radius: 50%;
+}
+
+.scissorWinner {
+    box-shadow:
+        3px 4px 5px 40px rgba(204, 200, 200, 0.137),
+        3px 4px 10px 100px rgba(254, 254, 254, 0.11),
+        3px 4px 10px 160px rgba(255, 255, 255, 0.06),
+        inset 0px 4px 1px 2px hsl(217, 62%, 85%),
+        0px 6px 1px hsla(40, 88%, 35%, 0.902);
+    border-radius: 50%;
+    transition: box-shadow 0.59 ease-in-out;
+}
+
+.lizardWinner {
+    box-shadow:
+        3px 4px 5px 40px rgba(204, 200, 200, 0.137),
+        3px 4px 10px 100px rgba(254, 254, 254, 0.11),
+        3px 4px 10px 160px rgba(255, 255, 255, 0.06),
+        inset 0px 4px 1px 2px hsl(217, 62%, 85%),
+        0px 6px 1px hsl(261, 73%, 60%);
+    border-radius: 50%;
+    transition: box-shadow 0.59 ease-in-out;
+}
+
+.spockWinner {
+    box-shadow:
+        3px 4px 5px 40px rgba(204, 200, 200, 0.137),
+        3px 4px 10px 100px rgba(254, 254, 254, 0.11),
+        3px 4px 10px 160px rgba(255, 255, 255, 0.06),
+        inset 0px 4px 1px 2px hsl(217, 62%, 85%),
+        0px 6px 1px hsl(189, 44%, 48%);
+    border-radius: 50%;
+    transition: box-shadow 0.59 ease-in-out;
+}
