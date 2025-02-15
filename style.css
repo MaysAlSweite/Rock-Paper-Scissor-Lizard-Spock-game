@@ -101,7 +101,7 @@ body {
     top: 330px;
     left: 53em;
     border: 19px solid hsl(230, 89%, 65%);
-    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(230, 98%, 61%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 7px 1px hsl(230, 98%, 61%);
     border-radius: 100px;
 }
 
@@ -110,7 +110,7 @@ body {
     top: 200px;
     right: 44em;
     border: 19px solid hsl(39, 89%, 49%);
-    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsla(40, 88%, 35%, 0.902);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 7px 1px hsla(40, 88%, 35%, 0.902);
     border-radius: 100px;
 }
 
@@ -118,7 +118,7 @@ body {
     bottom: 70px;
     right: 35em;
     border: 19px solid hsl(349, 71%, 52%);
-    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(349, 61%, 39%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 7px 1px hsl(349, 61%, 39%);
     border-radius: 100px;
 }
 
@@ -126,7 +126,7 @@ body {
     bottom: 70px;
     left: 38em;
     border: 19px solid hsl(261, 73%, 60%);
-    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(261, 42%, 41%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 7px 1px hsl(261, 42%, 41%);
     border-radius: 100px;
 }
 
@@ -134,7 +134,7 @@ body {
     bottom: 250px;
     right: 53em;
     border: 19px solid hsl(189, 59%, 53%);
-    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 6px 1px hsl(189, 44%, 48%);
+    box-shadow: inset 0px 4px 1px 2px hsl(217, 62%, 85%), 0px 7px 1px hsl(189, 44%, 48%);
     border-radius: 100px;
 }
 
@@ -364,6 +364,7 @@ body {
     }
 
     .score {
+        margin: 5%;
         height: 100px;
         width: 115px;
     }
@@ -448,8 +449,8 @@ body {
             3px 4px 4px 20px rgba(204, 200, 200, 0.099),
             3px 4px 2px 45px rgba(254, 254, 254, 0.088),
             3px 4px 2px 65px rgba(255, 255, 255, 0.06),
-            inset 0px 1px 1px 1px hsl(217, 62%, 85%),
-            0px 8px 1px hsl(349, 61%, 39%);
+            inset 0px 4px 1px 2px hsl(217, 62%, 85%),
+            0px 8px 2px hsl(349, 61%, 39%);
     }
 
     .paperWinner {
